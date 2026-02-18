@@ -1,11 +1,22 @@
 1. ¿Qué pasaría si no definimos correctamente las claves de cada entidad desde el inicio?
 
-Si no se definen correctamente las claves desde el inicio, pueden generarse problemas como duplicación de registros, inconsistencias y dificultad para relacionar correctamente las tablas. Por ejemplo, podrían existir dos estudiantes con la misma información sin poder diferenciarlos claramente. Además, las relaciones entre entidades (como estudiante y matrícula) no funcionarían de manera adecuada, afectando la integridad de los datos. A largo plazo, esto puede causar errores en reportes, consultas incorrectas y problemas en el funcionamiento general del sistema.
+Si no se definen correctamente las claves desde el inicio, pueden generarse problemas como duplicación de registros,
+inconsistencias y dificultad para relacionar correctamente las tablas. Por ejemplo, podrían existir dos estudiantes 
+con la misma información sin poder diferenciarlos claramente. Además, las relaciones entre entidades (como estudiante y matrícula)
+no funcionarían de manera adecuada, afectando la integridad de los datos. A largo plazo, esto puede causar errores en reportes,
+consultas incorrectas y problemas en el funcionamiento general del sistema.
 
 2. ¿Qué ventajas aporta tener identificadas las entidades antes de pasar al diagrama ER formal?
 
-Identificar las entidades previamente permite tener claridad sobre qué información se necesita almacenar y cómo se relaciona. Esto facilita la construcción del diagrama entidad-relación (ER), ya que se parte de una base organizada. También ayuda a evitar omisiones importantes, reduce errores en el diseño y mejora la comprensión del sistema antes de formalizarlo gráficamente. En otras palabras, permite planificar mejor la estructura de la base de datos y asegurar que responda a las necesidades del negocio.
+Identificar las entidades previamente permite tener claridad sobre qué información se necesita almacenar y cómo se relaciona.
+Esto facilita la construcción del diagrama entidad-relación (ER), ya que se parte de una base organizada. 
+También ayuda a evitar omisiones importantes, reduce errores en el diseño y mejora la comprensión del sistema antes de 
+formalizarlo gráficamente. En otras palabras, permite planificar mejor la estructura de la base de datos y asegurar que responda 
+a las necesidades del negocio.
 
 3. ¿Qué información adicional consideras crítica en un sistema académico que aún no hemos modelado?
 
-Además de estudiantes, asignaturas, grupos y matrículas, sería importante incluir información como docentes, programas académicos, historial de calificaciones, asistencia, prerequisitos de asignaturas y estados académicos del estudiante (activo, suspendido, graduado). También podrían considerarse datos relacionados con pagos de matrícula, evaluaciones, y registros de periodos académicos. Esta información permitiría tener un sistema más completo y funcional.
+Además de estudiantes, asignaturas, grupos y matrículas, sería importante incluir información como docentes, programas académicos,
+historial de calificaciones, asistencia, prerequisitos de asignaturas y estados académicos del estudiante 
+(activo, suspendido, graduado). También podrían considerarse datos relacionados con pagos de matrícula, evaluaciones, 
+y registros de periodos académicos. Esta información permitiría tener un sistema más completo y funcional.

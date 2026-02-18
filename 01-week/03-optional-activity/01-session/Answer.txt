@@ -1,7 +1,15 @@
 1. ¿Qué criterios usaría para decidir cuándo migrar de archivos planos a un SGBD?
 
-Se debería migrar de archivos planos a un SGBD cuando comienzan a presentarse problemas como duplicación de datos, errores frecuentes o inconsistencias en la información. También es recomendable hacerlo cuando se necesita realizar consultas más complejas o generar reportes consolidados, cuando varias personas deben acceder a los datos al mismo tiempo, cuando la cantidad de información crece constantemente o cuando se requiere mayor seguridad y control de acceso. En general, la migración es necesaria cuando los archivos planos ya no garantizan eficiencia, organización ni confiabilidad en el manejo de los datos.
+Se debería migrar de archivos planos a un SGBD cuando comienzan a presentarse problemas como duplicación de datos, 
+errores frecuentes o inconsistencias en la información. También es recomendable hacerlo cuando se necesita realizar 
+consultas más complejas o generar reportes consolidados, cuando varias personas deben acceder a los datos al mismo tiempo,
+cuando la cantidad de información crece constantemente o cuando se requiere mayor seguridad y control de acceso.
+En general, la migración es necesaria cuando los archivos planos ya no garantizan eficiencia,
+organización ni confiabilidad en el manejo de los datos.
 
 2. ¿Qué tipo de SGBD (relacional o NoSQL) parece más adecuado para este contexto y por qué?
 
-El tipo de SGBD más adecuado para este contexto es el relacional. Esto se debe a que los datos están estructurados en entidades bien definidas como estudiantes, asignaturas y notas, que necesitan estar relacionadas entre sí. Además, es importante mantener la integridad y consistencia de la información mediante claves primarias y foráneas. Los sistemas relacionales permiten realizar consultas SQL para combinar datos de distintas tablas y generar reportes completos, lo cual es fundamental en un entorno académico.
+El tipo de SGBD más adecuado para este contexto es el relacional.
+Esto se debe a que los datos están estructurados en entidades bien definidas como estudiantes,
+asignaturas y notas, que necesitan estar relacionadas entre sí. Además, es importante mantener la integridad
+y consistencia de la información mediante claves primarias y foráneas. Los sistemas relacionales permiten realizar consultas SQL para combinar datos de distintas tablas y generar reportes completos, lo cual es fundamental en un entorno académico.
