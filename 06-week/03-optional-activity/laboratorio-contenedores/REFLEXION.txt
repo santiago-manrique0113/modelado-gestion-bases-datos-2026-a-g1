@@ -1,0 +1,7 @@
+En este laboratorio se logró implementar PostgreSQL y MySQL mediante contenedores Docker, lo que permitió trabajar con ambos sistemas sin necesidad de instalarlos directamente en el equipo.
+
+Se evidenció que PostgreSQL es más estricto en el uso de estándares SQL, mientras que MySQL es más flexible y fácil de usar en entornos iniciales.
+
+Ambos sistemas permiten realizar operaciones básicas como creación de bases de datos, tablas e inserción de datos de manera eficiente.
+
+Docker facilitó el proceso al permitir levantar ambos motores de forma rápida y sin conflictos, lo cual es muy útil en entornos de desarrollo.
